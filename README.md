@@ -30,7 +30,17 @@ project
     └───simulation_navigation_random_obs
     └───simulation_navigation_varied_contrast
 ```
+#### 3. Run simulation:
 
-### References
++ run the navigation_run_with_visulization.py in the simulations folder to run the simulation with corresponding visulization
+change the world you want to use by altering this line:
+```python
+data_filename = '../results/simulation_navigation_random_obs/{}Obs_T1000/LGMD/1.mat'.format(num_obstacles)
+```
++ run runner.py in the simulations folder to run several trials of experiments automatically:
+```python
+if __name__ == "__main__":
+    run_dynamic_lgmd_no_enhance(0, 15, range(6, 48, 6))
+```
 
 
