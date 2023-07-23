@@ -1,4 +1,6 @@
-### A purely insect-inspired model facilitating autonomous navigation by incorporating __goal approaching__ and __collision avoidance__
+### An insect-inspired model facilitating autonomous navigation by incorporating __goal approaching__ and __collision avoidance__
+
+[Sun, X., Fu, Q., Peng, J., & Yue, S. (2023). An insect-inspired model facilitating autonomous navigation by incorporating goal approaching and collision avoidance. Neural Networks, 165, 106-118.](https://doi.org/10.1016/j.neunet.2023.05.033)
 
 #### 1. Performance
 two demos of agent's navigating in static and dynamic environment:
